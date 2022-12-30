@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #473a8d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.quiz-card{
+    background-color: #f8f8f8;
+    height: 75vh;
+    width: 85vw;
+    padding: 2rem 1rem;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+#quesNo-container{
+    /* margin: 2rem 0rem; */
+    width: 100%;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: left;
+    
+}
+#quesNo-container p{
+    text-align: left;
+
+}
+.option-btn-container{
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+width: 100%;
+gap: 1rem;
+height: 10rem;
+flex-wrap: wrap;
+
+}
+.option-btn{
+    background-color: #1ea1f1;
+    color: white;
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+
+}
+.nav-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+#prev-btn{
+    background-color: #3e7eaa;
+    border-style: none;
+    width: 5rem;
+    height: 2rem;
+}
+#next-btn{
+    background-color: green;
+    border-style: none;
+    width: 5rem;
+    height: 2rem;
+}
+#quit-btn{
+    background-color: red;
+    border-style: none;
+    width: 5rem;
+    height: 2rem;
+}

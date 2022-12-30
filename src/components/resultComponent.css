@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #473a8d;
+}
+h1{
+    color: green;
+}
+h2{
+    color: blue;
+}
+.result-card{
+    background-color: white;
+    height: 50vh;
+    width: 40vw;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.result-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.details-text{
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    width: 100%;
+}
+.nav-btn{ 
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+#play-btn{
+    border-color: blue;
+    border-style:groove ;
+    color:blue;
+    font-size: 0.7rem;
+    width: 6rem;
+    height: 2rem;
+}
+#home-btn{
+    font-size: 0.7rem;
+    width: 6rem;
+    height: 2rem;
+    border-color: green;
+    border-style:groove ;
+    color: green;
+}
